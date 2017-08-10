@@ -1,0 +1,48 @@
+/* General */
+body {
+    height: 100vh;
+    margin: 0 auto;
+    color: white;
+}
+
+
+/* Fonts */
+h1 {
+    font-family: 'Nixie One', 'Libre Baskerville', serif;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 15px;
+    line-height: 35px;
+}
+
+p{
+    font-family: 'Nixie One', 'Libre Baskerville', serif;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 40px;
+}
+
+
+/* Content */
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    background: black;
+    display: block;
+}
+
+.countdown-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+	height: 2px;
+    border: 0;
+    width: 30%;
+    background: white;
+}
