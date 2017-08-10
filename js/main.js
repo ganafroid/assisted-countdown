@@ -1,16 +1,15 @@
 // The Countdown
 var countDownDate = new Date("dec 7, 2017 13:30:00").getTime();
 
-
 // Get date
-var now = new Date();/* now.setDate(20); */ 
+var now = new Date();
+//now.setDate(9);
 
-  // Setting day
-  var day = now.getDay();
-  // Setting up the Background Colour change
-  setColor(day);
-
-
+// Setting day
+var day = now.getDay();
+// Setting up the Background Colour change
+console.log (day)
+setColor(day);
 
 // Update every second & Function to set the output
 var countdownfunction = setInterval(function(/*now*/) {
